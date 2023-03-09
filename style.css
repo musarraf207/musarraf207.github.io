@@ -26,7 +26,7 @@ html{
     margin-left: 40px;
 }
 #navbar .container{
-    width: 70%;
+    width: 100%;
     margin-right: 0%;
     display: flex;
     justify-content: space-around;
@@ -37,7 +37,7 @@ html{
     justify-content: space-around;
 }
 #navbar .container li, #navbar .container li>a{
-    font-size: 12px;
+    font-size: 18px;
     font-weight: 500;
     color: black;
     list-style: none;
@@ -55,7 +55,7 @@ html{
 }
 #navbar .container li>a.active{
     color:#8806ce;
-    font-size: 13px;
+    font-size: 23px;
     transition: 0.3s;
     font-weight: 600;
 }
@@ -67,6 +67,7 @@ html{
     color: black;
     font-weight: 500;
 }
+
 #home{
     width: 90%;
     height: 500px;
@@ -144,7 +145,7 @@ html{
     width: 100%;
     background-color: white;
     border-left: 2px solid #8806ce;
-    animation: typing 2s steps(15) infinite;
+    animation: typing 4s steps(25) infinite;
 }
 @keyframes typing{
     100%{

@@ -47,23 +47,7 @@ document.getElementById("github").addEventListener("click",function(){
     window.open("https://github.com/musarraf207");
 })
 
-function SendMail(){
-    let params = {
-        from_name : document.getElementById("fullName").value,
-        email_id : document.getElementById("email_id").value,
-        subject : document.getElementById("subject").value,
-        message : document.getElementById("message").value
-    }
-    emailjs.send("service_ekj990b", "template_976hc43", params).then(function(res){
-        if(res.status=200){
-            alert("Message has been send successfully.");
-            document.getElementById("fullName").value="";
-            document.getElementById("email_id").value="";
-            document.getElementById("subject").value="";
-            document.getElementById("message").value="";
-        }
-    })
-}
+
 
 let nav_icon = document.querySelector('.nav_icon');
 let line = document.querySelector('.line');
@@ -146,7 +130,7 @@ function mycheck(){
 
 function resumeDownload(){
    
-        window.open("files/FW20_0655_Vaibhav_Nikrad_Resume.pdf","_blank");
+        window.open("fw20_0874-Musarraf-Raza-Resume.pdf","_blank");
       }
 
 
