@@ -50,11 +50,11 @@ html{
 }
 #navbar .container li>a:hover{
     cursor: pointer;
-    color:#8806ce;
+    color:#443dcc;
     font-weight: 600;
 }
 #navbar .container li>a.active{
-    color:#8806ce;
+    color:#443dcc;
     font-size: 23px;
     transition: 0.3s;
     font-weight: 600;
@@ -70,7 +70,7 @@ html{
 
 #home{
     width: 90%;
-    height: 500px;
+    height: 300px;
     margin: auto;
     margin-top: -10px;
     padding: 40px 0px;
@@ -85,7 +85,7 @@ html{
     margin-bottom: 10px;
 }
 #home>div>p:nth-child(2)>span{
-    color:#8806ce;
+    color:#443dcc;
 }
 #home>div>h3{
     margin-left: 5px;
@@ -97,7 +97,7 @@ html{
     height: auto;
     margin-left: 150px;
     margin-top: 80px;
-    border: 0px solid #8806ce;
+    border: 0px solid #443dcc;
     border-radius: 20px;
 }
 #home>div>img{
@@ -144,7 +144,7 @@ html{
     height: 100%;
     width: 100%;
     background-color: white;
-    border-left: 2px solid #8806ce;
+    border-left: 2px solid #443dcc;
     animation: typing 4s steps(25) infinite;
 }
 @keyframes typing{
@@ -169,7 +169,7 @@ section:nth-child(1){
     margin: auto;
     text-align: center;
     margin-bottom: -60px;
-    color: #8806ce;
+    color: #443dcc;
     font-size: 35px;
 }
 #aboutme>div:nth-child(2), #aboutme>div:nth-child(4){
@@ -192,7 +192,7 @@ section:nth-child(1){
     width: 300px;
     height: auto;
     margin-top: 30px; 
-    border: 0px solid#8806ce;
+    border: 0px solid#443dcc;
     border-radius: 15px;
 }
 #aboutme>div:nth-child(2)>div>img{
@@ -212,7 +212,7 @@ section:nth-child(1){
     font-weight: 600;
 }
 #aboutme>div:nth-child(2)>div:nth-child(2)>div>h2>span{
-    color: #8806ce;
+    color: #443dcc;
 }
 #aboutme>div:nth-child(2)>div:nth-child(2)>div:nth-child(2){
     display: flex;
@@ -221,7 +221,7 @@ section:nth-child(1){
 }
 #aboutme>div:nth-child(2)>div:nth-child(2)>div>p>span{
     font-weight: 600;
-    color:#8806ce;
+    color:#443dcc;
     font-style: italic;
 }
 
@@ -230,7 +230,7 @@ section:nth-child(1){
 }
 #aboutme>div:nth-child(2)>div>div>table tr>td>i{
     font-size: 17px;
-    color: #8806ce;
+    color: #443dcc;
 }
 #downloadResume{
     width: 180px;
@@ -240,13 +240,13 @@ section:nth-child(1){
     font-size: 15px;
     font-weight: 600;
     color: rgb(243, 243, 244);
-    background-color: #8806ce;
+    background-color: #443dcc;
     border: 0px;
     border-radius: 5px;
     text-decoration: none;
 }
 #downloadResume:hover{
-    background-color: #8806ce;
+    background-color: #443dcc;
     cursor: pointer;
 }
 
@@ -259,7 +259,7 @@ section:nth-child(1){
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
-    color:#8806ce;
+    color:#443dcc;
     font-size: 35px;
 }
 #education>div{
@@ -276,10 +276,10 @@ section:nth-child(1){
 }
 
 #educationcolumn>div>div>h2{
-    color: #8806ce;
+    color: #443dcc;
 }
 #educationcolumn>div>div:nth-child(1){
-    border-right: 2px solid #8806ce;
+    border-right: 2px solid #443dcc;
     padding: 20px 0px;
 }
 #educationcolumn>div:nth-child(odd)>div:nth-child(1){
@@ -328,7 +328,7 @@ section:nth-child(1){
     margin: auto;
     text-align: center;
     margin-bottom: 30px;
-    color: #8806ce;
+    color: #443dcc;
     font-size: 35px;
 }
 #skills>div{
@@ -369,7 +369,7 @@ section:nth-child(1){
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
-    color:  #8806ce;
+    color:  #443dcc;
     font-size: 35px;
 }
 #projects>div{
@@ -420,7 +420,7 @@ section:nth-child(1){
 #projects>div>div>p:nth-child(4){
     margin-top: 8px;
     font-size: 1.15rem;
-    color: #8806ce;
+    color:#443dcc;
 }
 #projects>div>div>p>i{
     font-size: 30px;
@@ -461,7 +461,7 @@ section:nth-child(1){
     width: 90%;
     margin: auto;
     margin-bottom: 30px;
-    color: #8806ce;
+    color: #443dcc;
     font-size: 35px;
 }
 #contact>div{
@@ -482,7 +482,7 @@ section:nth-child(1){
 }
 #contact>div>div>input:focus,#contact>div>div>textarea:focus{
     outline: none;
-    border: 0.5px solid  #8806ce;
+    border: 0.5px solid  #443dcc;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 #contact>div>div>input:nth-child(4){
@@ -501,13 +501,13 @@ section:nth-child(1){
     margin-top: 10px;
     padding: 14px 235px;
     font-family: 'Montserrat', sans-serif;
-    background-color:  #8806ce;
+    background-color:  #443dcc;
     color: white;
     border: 0px;
     border-radius: 5px;
 }
 #contact>div>div>button:hover{
-    background-color: #8806ce;
+    background-color: #443dcc;
     cursor: pointer;
 }
 #contact>div>div>div{
@@ -516,7 +516,7 @@ section:nth-child(1){
     gap: 40px;
 }
 #contact>div>div>div>i{
-    color: #8806ce;
+    color: #443dcc;
     font-size: 20px;
 }
 #contact>div>div>div:nth-child(1)>i{
@@ -815,7 +815,7 @@ section:nth-child(1){
     .checkbtn{
         display:block;
         margin-right: -260px;
-        color:  #8806ce;
+        color:  #443dcc;
         font-size: 18px;
     }
 
@@ -1117,4 +1117,18 @@ section:nth-child(1){
     #socialMedia>i{
         font-size: 20px;
     }
+}
+#intro>h1{
+    font-size: 60px;
+    color: gray;
+}
+#imp{
+width: auto;
+}
+.nav_list{
+    padding: 5px 10px 0px 10px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: whitesmoke;
+    border: 1px solid orangered;
 }
