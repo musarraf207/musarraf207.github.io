@@ -16,6 +16,7 @@ html{
     padding: 12px 0px 10px 0px;
     background-color: white; 
     z-index: 1000;
+    background-color: orangered;
 }
 .scrolled{
     transition: 0.5s;
@@ -39,7 +40,7 @@ html{
 #navbar .container li, #navbar .container li>a{
     font-size: 18px;
     font-weight: 500;
-    color: black;
+    color: white;
     list-style: none;
     text-decoration: none;
 }
@@ -50,11 +51,11 @@ html{
 }
 #navbar .container li>a:hover{
     cursor: pointer;
-    color:#443dcc;
+    color:navy;
     font-weight: 600;
 }
 #navbar .container li>a.active{
-    color:#443dcc;
+    color:navy;
     font-size: 23px;
     transition: 0.3s;
     font-weight: 600;
@@ -1129,9 +1130,10 @@ width: auto;
     padding: 5px 10px 0px 10px;
     border-radius: 5px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    background-color: whitesmoke;
+    background-color: orange;
     border: 1px solid orangered;
 }
+
 #contact{
     padding: 200px 0px 200px 0px;
 }
