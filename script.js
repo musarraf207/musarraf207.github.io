@@ -46,7 +46,12 @@ document.getElementById("linkedin").addEventListener("click",function(){
 document.getElementById("github").addEventListener("click",function(){
     window.open("https://github.com/musarraf207");
 })
-
+document.getElementById("twitter").addEventListener("click",function(){
+    window.open("https://twitter.com/musarraf207");
+})
+document.getElementById("whatsapp").addEventListener("click",function(){
+    window.open("https://wa.me/qr/TKXJMLA4IGAZC1");
+})
 
 
 let nav_icon = document.querySelector('.nav_icon');
