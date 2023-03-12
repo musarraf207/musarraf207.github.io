@@ -135,7 +135,7 @@ function mycheck(){
 
 function resumeDownload(){
    
-        window.open("fw20_0874-Musarraf-Raza-Resume.pdf","_blank");
+        window.open("https://drive.google.com/file/d/108dbvppceLWEET1g15iXErmRUGAfOCku/view?usp=sharing","_blank");
       }
 
 
