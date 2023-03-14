@@ -183,7 +183,7 @@ gap: 50px;
     margin-bottom:10px ;
 }
 .about .about-content .right .text span{
-    color:rgb(13, 135, 135)
+    color:rgb(10, 60, 82)
 }
 .about .about-content .right p{
     text-align:justify;
@@ -265,7 +265,7 @@ gap: 50px;
     margin: auto;
     text-align: center;
     margin-bottom: 30px;
-    color: #443dcc;
+    color: rgb(10, 60, 82);
     font-size: 50px;
 }
 #skills>div{
@@ -973,4 +973,24 @@ font-size: 25px;
 }
 #skills>div>div{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#rsm{
+  background:rgb(10, 60, 82);
+  
+}
+#rsm:hover{
+    background-color: crimson;
+}
+
+.content>a{
+    background: rgb(10, 60, 82);
+}
+.content>a:hover{
+    background:  crimson;
+}
+.content>h2{
+    color: rgb(10, 60, 82);
+}
+.content>p>span{
+    color: black;
 }
