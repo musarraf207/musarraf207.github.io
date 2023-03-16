@@ -304,10 +304,10 @@ gap: 50px;
 
 }
 .projects{
-    height:600px;
+    height:660px;
     width:38%;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    background-color:rgb(243, 219, 222);
+    background-color:rgb(216, 210, 234);
 
 }
 .content h2{
@@ -741,7 +741,8 @@ gap: 50px;
         margin-left: 0px;
     }
     .projects{
-        height:700px;
+        width: 45%;
+        height:800px;
     }
     .contact .content{
         width:60%;
@@ -845,7 +846,8 @@ gap: 50px;
         height:100px;
     }
     .projects{
-        width:50%;
+        width:100%;
+        
     }
     .content p{
         font-size: 20px;
